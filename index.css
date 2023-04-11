@@ -37,7 +37,7 @@ p {
   display: inline-block;
 }
 
-.fancy:hover > .letter{
+.fancy:hover>.letter {
   transition: transform 350ms ease;
   transform-duration: 1000ms;
 }
@@ -89,4 +89,3 @@ p {
 .fancy:hover>.letter:nth-child(12) {
   transform: translate(120%, -30%) rotate(-10deg);
 }
-
